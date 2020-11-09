@@ -33,3 +33,10 @@ class BankAccount:
 # print_receipt method
     def print_receipt(self):
         print(f'{self__.full_name}\n Account No: {self.__account_number}\n Routing No: {self.__routing_number}\n Balance: {self.__balance}')
+
+# 3 different bank account examples
+Po_Kealiinohomoku = BankAccount('Po Kealiinohomoku', 12345678, 87654321, 100)
+Po_Kealiinohomoku.deposit(20.50)
+Po_Kealiinohomoku.withdraw(10)
+Po_Kealiinohomoku.add_interest()
+Po_Kealiinohomoku.get_balance()
